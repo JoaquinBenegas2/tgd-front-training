@@ -1,0 +1,2 @@
+Instalar extensión: 
+- Paste JSON as Code: ctrl + shift + v
