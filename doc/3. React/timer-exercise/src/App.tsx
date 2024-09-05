@@ -16,7 +16,7 @@ function App() {
       // 1. TODO: Set up an interval that updates the time every second
       //    HINT: use the setInterval function from the window object
 
-      // Algorithm:
+      //Probando pusheo
       // <----------------------------------------------------------------------------------
     }
 
