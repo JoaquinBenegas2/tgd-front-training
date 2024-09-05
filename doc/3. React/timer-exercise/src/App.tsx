@@ -16,7 +16,7 @@ function App() {
       // 1. TODO: Set up an interval that updates the time every second
       //    HINT: use the setInterval function from the window object
 
-
+      // Algorithm:
       // <----------------------------------------------------------------------------------
     }
 
@@ -25,7 +25,7 @@ function App() {
       // 2. TODO: Clear the interval when the component unmounts or isTimerRunning changes
       //    HINT: use the clearInterval function from the window object, this function takes the timer as an argument
 
-
+      // Algorithm:
       // <----------------------------------------------------------------------------------
     };
   }, [isTimerRunning]);
