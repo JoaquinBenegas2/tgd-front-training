@@ -1,0 +1,57 @@
+# Excluir node_modules en cualquier subcarpeta
+node_modules/
+
+# Excluir dist y build generados por proyectos
+dist/
+build/
+
+# Excluir logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Excluir directorios temporales
+.pnpm-debug.log*
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Excluir cache de npm y yarn
+.cache/
+.yarn/
+.pnp/
+.pnp.js
+
+# Excluir archivos lock
+package-lock.json
+yarn.lock
+
+# Excluir configuraciones específicas de IDEs y editores
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Excluir archivos de pruebas
+coverage/
+*.test.js
+*.spec.js
+
+# Excluir archivos de entorno
+.env
+.env.*.local
+
+# Excluir archivos de configuración de eslint y prettier
+.eslintcache
+.prettierignore
+.prettierrc
+
+# Excluir archivos de configuración de GitHub Actions si no son necesarios
+.github/
+
+# Excluir archivos de configuración de Mac
+.DS_Store
