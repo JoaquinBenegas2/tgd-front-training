@@ -15,8 +15,10 @@ function App() {
       // ---------------------------------------------------------------------------------->
       // 1. TODO: Set up an interval that updates the time every second
       //    HINT: use the setInterval function from the window object
-
-      //Probando pusheo
+      timer = window.setInterval(() =>{
+        setTime(time + 1)
+      },1000)
+      
       // <----------------------------------------------------------------------------------
     }
 
@@ -24,16 +26,17 @@ function App() {
       // ---------------------------------------------------------------------------------->
       // 2. TODO: Clear the interval when the component unmounts or isTimerRunning changes
       //    HINT: use the clearInterval function from the window object, this function takes the timer as an argument
-
+      window.clearInterval(timer)
       // Algorithm:
       // <----------------------------------------------------------------------------------
     };
-  }, [isTimerRunning]);
+  }, [isTimerRunning, time]);
 
   const resetTime = () => {
     // ---------------------------------------------------------------------------------->
     // 3. TODO: Reset the timer by setting the time to 0 and setting isTimerRunning to false
-
+    setIsTimerRunning(false);
+    setTime(0);
 
     // <----------------------------------------------------------------------------------
   };
@@ -47,8 +50,7 @@ function App() {
           onClick={() => {
             // ---------------------------------------------------------------------------------->
             // 4. TODO: Start the timer by setting isTimerRunning to true
-
-
+            setIsTimerRunning(true)
             // <----------------------------------------------------------------------------------
           }} 
           className="play-btn">
@@ -59,7 +61,7 @@ function App() {
           onClick={() => {
             // ---------------------------------------------------------------------------------->
             // 5. TODO: Pause the timer by setting isTimerRunning to false
-
+            setIsTimerRunning(false)
 
             // <----------------------------------------------------------------------------------
           }} 
