@@ -1,0 +1,54 @@
+.App {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.counter-container {
+  text-align: center;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+button {
+  min-width: 100px;
+  height: 36px;
+  padding: 0px 16px;
+  border: none;
+  color: white;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  background-color: #006eec;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+button:focus {
+  outline: none;
+}
+
+.increment-btn {
+  background-color: #4caf50;
+}
+.increment-btn:hover {
+  background-color: #3a943e;
+}
+
+.decrement-btn {
+  background-color: #f44336;
+}
+.decrement-btn:hover {
+  background-color: #db312e;
+}
+
+.reset-btn {
+  background-color: #ffc107;
+}
+.reset-btn:hover {
+  background-color: #eea700;
+}
