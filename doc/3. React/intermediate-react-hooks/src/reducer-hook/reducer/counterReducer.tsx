@@ -1,4 +1,4 @@
-import { Action, CounterState } from "../../context-hook/types/context";
+import { Action, CounterState } from "../types/counter";
 
 export const counterReducer = (state: CounterState, action: Action): CounterState => {
   switch (action.type) {
