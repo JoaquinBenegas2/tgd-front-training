@@ -1,0 +1,1 @@
+Las 6 maneras de aplicar estilos CSS en React: https://www.youtube.com/watch?v=J-hGXVPyT-Y&ab_channel=lasfito
