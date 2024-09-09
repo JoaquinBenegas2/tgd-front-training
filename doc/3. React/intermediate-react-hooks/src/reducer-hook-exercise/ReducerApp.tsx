@@ -8,6 +8,6 @@ const ReducerApp = () => {
       <Counter />
     </div>
   );
-}
+};
 
-export default ReducerApp
+export default ReducerApp;

@@ -1,8 +1,8 @@
 export interface CounterState {
-    count: number
-  }
-  
+  count: number;
+}
+
 export interface Action {
-    type: "increment" | "custom" | "decrement" | "reset";
-    payload?: number
-  }
+  type: "increment" | "custom" | "decrement" | "reset";
+  payload?: number;
+}

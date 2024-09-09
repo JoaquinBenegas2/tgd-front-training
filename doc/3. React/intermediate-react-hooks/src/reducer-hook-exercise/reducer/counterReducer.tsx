@@ -1,7 +1,6 @@
 import { Action } from "../types/counter";
 import { CounterState } from "../types/counter";
 
-
 export const counterReducer = (state: CounterState, action: Action): CounterState => {
   switch (action.type) {
     case "increment":
@@ -11,11 +10,11 @@ export const counterReducer = (state: CounterState, action: Action): CounterStat
       return { count: state.count - 1 };
       break;
     case "custom":
-      return { count: state.count + (action.payload || 1) }
-      break
+      return { count: state.count + (action.payload || 1) };
+      break;
     case "reset":
-      return { count: 0 }
-      break
+      return { count: 0 };
+      break;
     default:
       return state;
   }
