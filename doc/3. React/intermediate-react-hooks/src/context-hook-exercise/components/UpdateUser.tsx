@@ -2,13 +2,21 @@ import { useContext, useState } from "react";
 import { UserContext } from "../context/UserContext";
 
 const UpdateUser = () => {
-  const userContext = useContext();
+  const userContext = useContext(UserContext);
 
   // Context Validation
 
+  if(!userContext){
+    throw new Error("UpdateUser must be used within a UserProvider")
+  }
+
+
   const [newUser, setNewUser] = useState<string>("");
 
-  const handleUpdate = () => {};
+  const handleUpdate = () => {
+    userContext.setUser(newUser);
+    setNewUser("");
+  };
 
   return (
     <div style={{ display: "flex" }}>

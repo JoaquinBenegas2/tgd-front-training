@@ -6,10 +6,12 @@ import "./ContextApp.css";
 
 const ContextApp = () => {
   return (
-    <div className="App">
-      <DisplayUser />
-      <UpdateUser />
-    </div>
+    <UserProvider>
+      <div className="App">
+        <DisplayUser />
+        <UpdateUser />
+      </div>
+    </UserProvider>
   );
 };
 
