@@ -1,0 +1,6 @@
+React Hook Form Doc: https://www.react-hook-form.com/get-started
+
+Axios:
+1. https://www.youtube.com/watch?v=5h-j4ssSPP4&pp=ygUgYXhpb3MgaW50ZXJjZXB0b3JzIHRoZSBnZW50bGVtYW4%3D
+2. https://www.youtube.com/watch?v=axtI0lURwAw&pp=ygUgYXhpb3MgaW50ZXJjZXB0b3JzIHRoZSBnZW50bGVtYW4%3D
+3. https://www.youtube.com/watch?v=PrfufbTNfsw&t=512s&pp=ygUgYXhpb3MgaW50ZXJjZXB0b3JzIHRoZSBnZW50bGVtYW4%3D
